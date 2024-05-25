@@ -9,7 +9,7 @@ document.addEventListener("DOMContentLoaded", function() {
 
 
     console.log("Inventory Container:", inventoryContainer);
-const gameModule = new GameModule(gameContainer, inventoryContainer);
+const GameModule = new GameModule(gameContainer, inventoryContainer);
 
 
     const introModule = new IntroModule(introContainer, gameContainer, GameModule);
