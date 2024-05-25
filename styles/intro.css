@@ -1,0 +1,49 @@
+.intro-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  background-color: white;
+  border: 1px solid #ccc;
+  border-radius: 10px;
+  padding: 0px 30px 70px 30px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  height: 100vh;
+  width: 100vh;
+  background-image: url(../assets/images/giphy.gif);
+  background-size: cover;
+}
+.intro-container > p {
+  font-size: 20px;
+  margin-top: 10px;
+}
+.intro-container > h1 {
+  font-size: 42px;
+  margin: 20px 0;
+}
+.intro-container input {
+  margin: 30px 0 10px 0;
+  padding: 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+
+.intro-container button {
+  padding: 10px 20px;
+  border: none;
+  background-color: #000000;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s;
+}
+
+.intro-container button:hover {
+  background-color: #404040;
+}
+
+.hidden {
+ display: none;
+}
+

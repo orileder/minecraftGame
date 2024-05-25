@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>2D Minecraft</title>
+    <meta charset="UTF-8">
+    <link rel="icon" href="./assets/icons/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./styles/styles.css">
+    <link rel="stylesheet" href="./styles/intro.css">
+    <link rel="stylesheet" href="./styles/game.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <audio id="myAudio" src="./assets/audio/1-01. Key.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+</head>
+<body>
+    <section id="intro-container" class="intro-container">
+        <h1>2D Minecraft</h1>
+        <button id="start-game-button">Start game</button><br>
+        <button id="sound-button">Sound: off</button>
+    </section>
+    <section id="game-container" class="game-container hidden">
+        
+            <section class="tools-container">
+                <div class="items-container">
+                    <button id='pickaxe' class="tool" data-tool-type="pickaxe"></button>
+                    <button id='axe' class="tool" data-tool-type="axe"></button>
+                    <button id='shovel' class="tool" data-tool-type="shovel"></button>
+                </div>
+            </section>
+            <div class="board-container"></div>
+            <div class="inventory-container">
+                <button class='inventory-item wood'>0</button>
+                <button class='inventory-item rock'>0</button>
+                <button class='inventory-item grass'>0</button>
+                <button class='inventory-item leaves'>0</button>
+                <button class='inventory-item dirt'>0</button>
+            </div>
+            
+    
+    </section>
+    <script type="module" src="main.js"></script>
+</body>
+</html>
